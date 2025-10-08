@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cloudhub</title>
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="sign-in.css" />
   </head>
   <body>
     <main class="main-section">
       <div class="login-container">
-        <img class="cloudhub-logo" src="/assets/cloudhub-logo.png" alt="cloudhub-logo" />
+        <img
+          class="cloudhub-logo"
+          src="/assets/cloudhub-logo.png"
+          alt="cloudhub-logo"
+        />
         <h2>Sign in</h2>
         <p class="sub-text">
           New to cloudhub?
@@ -21,11 +25,7 @@
             Sign in with Meta
           </button>
           <button id="sign-with-meta-btn" class="sign-with-meta-btn">
-            <img
-              class="meta-logo"
-              src="/assets/google.png"
-              alt="Google Logo"
-            />
+            <img class="meta-logo" src="/assets/google.png" alt="Google Logo" />
             Sign in with Google
           </button>
         </div>
@@ -37,10 +37,21 @@
         <div>
           <form action="" class="login-form">
             <label class="input-label" for="email">Email</label>
-            <input type="text" placeholder="Email" class="input-field" value=""/>
+            <input
+              type="text"
+              id="email"
+              placeholder="Email"
+              class="input-field"
+              value=""
+            />
 
-            <label class="input-label" for="email">Password</label>
-            <input type="password" placeholder="Password" class="input-field" />
+            <label class="input-label" for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              class="input-field"
+            />
             <p class="forgot-password">Forgot Password?</p>
             <button class="login-btn" type="submit">Start for free</button>
           </form>
