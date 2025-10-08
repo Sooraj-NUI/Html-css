@@ -2,11 +2,13 @@
   max-width: 1200px;
   padding: 40px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
 }
 .blog-container {
   height: 100%;
-  /* width: 100%; */
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
@@ -17,7 +19,6 @@
   max-width: 350px;
   height: 250px;
   border-radius: 20px;
-  object-fit: fill;
 }
 .post-author-image-icon {
   width: 50px;
@@ -38,9 +39,6 @@
   width: 10px;
   border-radius: 20%;
 }
-.post-tags-container {
-  align-items: flex-start;
-}
 .post-tags-container > ul {
   list-style: none;
   display: flex;
@@ -60,7 +58,7 @@
   .blog-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    gap: 30px;
   }
 }
 

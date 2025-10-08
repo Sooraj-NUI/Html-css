@@ -112,6 +112,9 @@ p {
   background-color: black;
   border-radius: 50%;
 }
+.questions{
+  font-weight: bold;
+}
 @media (max-width: 768px) {
   .cover-image {
     position: relative;
