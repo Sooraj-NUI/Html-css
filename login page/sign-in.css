@@ -62,7 +62,7 @@
   width: 25px;
   background-color: transparent;
 }
-.meta-google-button-container {
+.social-login-buttons {
   display: flex;
   flex-direction: column;
   gap: 20px;
