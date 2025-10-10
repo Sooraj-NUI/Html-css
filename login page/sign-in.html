@@ -15,17 +15,18 @@
           alt="cloudhub-logo"
         />
         <h2>Sign in</h2>
-        <p class="sub-text">
+        <p class="sub-text-sign-up">
           New to cloudhub?
           <span class="highlight-text">Sign up</span>
         </p>
-        <div class="login-buttons">
-          <button id="sign-with-meta-btn" class="sign-with-meta-btn">
+        
+        <div class="meta-google-button-container">
+          <button  class="sign-with-meta-btn">
             <img class="meta-logo" src="/assets/meta.png" alt="Meta Logo" />
             Sign in with Meta
           </button>
-          <button id="sign-with-meta-btn" class="sign-with-meta-btn">
-            <img class="meta-logo" src="/assets/google.png" alt="Google Logo" />
+          <button class="sign-with-google-btn">
+            <img class="google-logo" src="/assets/google.png" alt="Google Logo" />
             Sign in with Google
           </button>
         </div>
@@ -34,8 +35,8 @@
           <span>or</span>
           <hr />
         </div>
-        <div>
-          <form action="" class="login-form">
+      
+          <form class="login-form-container" id="login-form">
             <label class="input-label" for="email">Email</label>
             <input
               type="text"
@@ -52,10 +53,13 @@
               class="input-field"
             />
             <p class="forgot-password">Forgot Password?</p>
-            <button class="login-btn" type="submit">Start for free</button>
+            <button class="login-btn" id="submit" type="submit">Start for free</button>
           </form>
-        </div>
+          <p id="message"></p>
+
+          
       </div>
     </main>
+    <script src="sign-in.js"></script>
   </body>
 </html>

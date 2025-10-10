@@ -48,7 +48,7 @@
   height: 50px;
   border-radius: 50%;
 }
-.author-details {
+.author-icon-container {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -89,6 +89,9 @@ p {
   width: 50%;
   height: 100%;
   padding: 10px 40px;
+  line-height: 25px;
+  color: grey;
+
 }
 .blog-paragraph {
   margin: 10px 0;
@@ -97,6 +100,7 @@ p {
 .blog-side-heading {
   font-size: 25px;
   padding: 20px 0;
+  color: black;
 }
 .post-author-designation {
   font-size: 12px;
@@ -114,6 +118,7 @@ p {
 }
 .questions{
   font-weight: bold;
+  margin: 3px 0;
 }
 @media (max-width: 768px) {
   .cover-image {
