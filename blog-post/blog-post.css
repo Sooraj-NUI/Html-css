@@ -145,6 +145,10 @@ p {
   gap: 50px;
   padding: 0;
 }
+.navbar-middle-section > ul li a{
+    color: inherit;
+    text-decoration: none;
+}
 .login-btn {
   background-color: rgb(255, 72, 0);
   color: white;

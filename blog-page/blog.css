@@ -96,6 +96,10 @@
   border-radius: 25px;
   text-align: center;
 }
+.navbar-middle-section > ul li a{
+    color: inherit;
+    text-decoration: none;
+}
 .footer-section {
   display: flex;
   justify-content: space-between;
