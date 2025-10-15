@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="blog-post.css" />
   </head>
   <body>
+    <div class="mobile-sidebar" id="mobile-sidebar">
+      <div class="sidebar-header-section">
+
+        <img class="nav-logo" src="../assets/cloudhub-logo.png" alt="cloudhub-logo" />
+          <img class="sidebar-close-icon" src="../assets/cancel.png" alt="close-button" id="close-sidebar" onclick="toggleSidebar()"/>
+      </div>
+        <div class="sidebar-middle-section">
+        <select name="projects" class="sidebar-projects-dropdown" id="projects">
+          <option>Projects</option>
+        </select> 
+          <ul>
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">Shop</a></li>
+            <li><a href="#" target="_blank">Pages</a></li>
+            <li><a href="#" target="_blank">Integrations</a></li>
+            <li><a href="#" target="_blank">Developers</a></li>
+          </ul>
+      </div>
+    </div>
      <header class="navbar">
       <div class="navbar-left-section">
         <img class="nav-logo" src="../assets/cloudhub-logo.png" alt="cloudhub-logo" />
@@ -15,7 +34,7 @@
       <div class="navbar-middle-section">
         <select name="projects" class="nav-projects-dropdown" id="projects">
           <option>Projects</option>
-        </select>
+        </select> 
           <ul>
             <li><a href="#" target="_blank">Home</a></li>
             <li><a href="#" target="_blank">Shop</a></li>
@@ -23,14 +42,14 @@
             <li><a href="#" target="_blank">Integrations</a></li>
             <li><a href="#" target="_blank">Developers</a></li>
           </ul>
-
       </div>
       <div class="navbar-right-section">
         <button class="login-btn">Start for free</button>
       </div>
       <div class="hamburger">
-        <img class="hamburger-icon" src="../assets/hamburger-icon.png" alt="hamburger-icon" />
+        <img class="hamburger-icon" src="../assets/hamburger-icon.png" alt="hamburger-icon" onclick="toggleSidebar()" />
       </div>
+      
     </header>
     <main class="main-section">
       <section class="blog-cover">
@@ -193,4 +212,5 @@
       </ul></div>
     </footer>
   </body>
+  <script src="sidebar-toggle.js"></script>
 </html>

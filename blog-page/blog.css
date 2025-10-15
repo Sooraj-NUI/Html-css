@@ -110,6 +110,10 @@
   font-weight: bold;
   margin: 10px 0;
 }
+.mobile-sidebar{
+  display: none;
+}
+
 @media (max-width: 1164px) {
   .blog-container {
     display: grid;
@@ -151,4 +155,56 @@
   .footer-section ul {
     padding: 0;
   }
+  .mobile-sidebar {
+  display: block;
+  width: 300px;
+  z-index: 10;
+  position: fixed;
+  background-color: red;
+  right: 0;
+  flex-direction: column;
+  backdrop-filter: blur(30px) saturate(2);
+  -webkit-backdrop-filter: blur(30px) saturate(2);
+  padding-inline: 0;
+  padding-block: 13px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: 2.2s cubic-bezier(0.36, -0.01, 0, 0.77);
+  height: 100%;
+}
+.mobile-sidebar.closed {
+  margin-right: -200px;
+  width: 0;
+}
+.sidebar-close-icon {
+  height: 25px;
+}
+.sidebar-header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sidebar-middle-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+}
+.sidebar-middle-section ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar-middle-section ul li {
+  padding: 5px;
+}
+.sidebar-middle-section ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar-projects-dropdown {
+  border: none;
+  background: transparent;
+}
 }

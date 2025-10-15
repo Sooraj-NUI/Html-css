@@ -5,3 +5,10 @@ blogCards.forEach(function(blogCard) {
         window.location.href = '../blog-post/blog-post.html';
     });
 });
+
+
+function openSidebar() {
+    console.log("open sidebar");
+ document.querySelector('.mobile-sidebar')
+    .classList.toggle('closed');}
+
