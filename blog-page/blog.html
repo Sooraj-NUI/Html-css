@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="blog.css" />
   </head>
   <body>
-    <div class="mobile-sidebar" id="mobile-sidebar">
+    <div class="mobile-sidebar closed" id="mobile-sidebar">
       <div class="sidebar-header-section">
 
         <img class="nav-logo" src="../assets/cloudhub-logo.png" alt="cloudhub-logo" />
-          <img class="sidebar-close-icon" src="../assets/cancel.png" alt="close-button" id="close-sidebar" onclick="openSidebar()"/>
+          <img class="sidebar-close-icon" src="../assets/cancel.png" alt="close-button" id="close-sidebar" onclick="toggleSidebar()"/>
       </div>
         <div class="sidebar-middle-section">
         <select name="projects" class="sidebar-projects-dropdown" id="projects">
@@ -47,7 +47,7 @@
         <button class="login-btn">Start for free</button>
       </div>
       <div class="hamburger">
-        <img class="hamburger-icon" src="../assets/hamburger-icon.png" alt="hamburger-icon" onclick="openSidebar()"/>
+        <img class="hamburger-icon" src="../assets/hamburger-icon.png" alt="hamburger-icon" onclick="toggleSidebar()"/>
       </div>
     </header>
     <main class="main-section">

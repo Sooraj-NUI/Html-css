@@ -6,9 +6,7 @@ blogCards.forEach(function(blogCard) {
     });
 });
 
-
-function openSidebar() {
-    console.log("open sidebar");
- document.querySelector('.mobile-sidebar')
-    .classList.toggle('closed');}
+function toggleSidebar() {
+  document.querySelector(".mobile-sidebar").classList.toggle("closed");
+}
 
