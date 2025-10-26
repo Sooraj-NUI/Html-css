@@ -1,0 +1,84 @@
+[
+  { "id": 1, "src": "../assets/codewise-logo.png", "alt": "codewise-logo" },
+  { "id": 2, "src": "../assets/coss-over-logo.png", "alt": "cross-over-logo" },
+  {
+    "id": 3,
+    "src": "../assets/carvolution-logo.png",
+    "alt": "carvolution-logo"
+  },
+  {
+    "id": 4,
+    "src": "../assets/liquid-web-logo.png",
+    "alt": "liquid-web-logo"
+  },
+  {
+    "id": 5,
+    "src": "../assets/crowdstrike-logo.png",
+    "alt": "crowdstrike-logo"
+  },
+  {
+    "id": 6,
+    "src": "../assets/cathy-pacific-logo.png",
+    "alt": "cathy-pacific-logo"
+  },
+  {
+    "id": 7,
+    "src": "../assets/action-logo.png",
+    "alt": "action-logo"
+  },
+  {
+    "id": 8,
+    "src": "../assets/auto-trader-logo.png",
+    "alt": "auto-trader-logo"
+  },
+  {
+    "id": 9,
+    "src": "../assets/airbus-logo.png",
+    "alt": "airbus-logo"
+  },
+  {
+    "id": 10,
+    "src": "../assets/hays-logo.png",
+    "alt": "hays-logo"
+  },
+  {
+    "id": 11,
+    "src": "../assets/joyn-logo.png",
+    "alt": "joyn-logo"
+  },
+  {
+    "id": 12,
+    "src": "../assets/sentry-logo.png",
+    "alt": "sentry-logo"
+  },
+  {
+    "id": 13,
+    "src": "../assets/boulder-country-logo.png",
+    "alt": "boulder-country-logo"
+  },
+  {
+    "id": 14,
+    "src": "../assets/auto-desk-logo.png",
+    "alt": "auto-desk-logo"
+  },
+  {
+    "id": 15,
+    "src": "../assets/med-wing-logo.png",
+    "alt": "med-wing-logo"
+  },
+  {
+    "id": 16,
+    "src": "../assets/heriot-logo.png",
+    "alt": "heriot-logo"
+  },
+  {
+    "id": 17,
+    "src": "../assets/deno-logo.png",
+    "alt": "deno-logo"
+  },
+  {
+    "id": 18,
+    "src": "../assets/commerce-tools-logo.png",
+    "alt": "commerce-tools-logo"
+  }
+]
