@@ -253,4 +253,16 @@ body {
     border: none;
     background: transparent;
   }
+  .sub-header{
+    margin-left: 10px;
+  }
+  .sub-header h1 {
+  font-size: 20px;
+  /* width: 50%; */
+}
+.sub-header p {
+  font-size: 10px;
+  color: gray;
+  /* width: 50%; */
+}
 }
