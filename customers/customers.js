@@ -5,12 +5,16 @@ fetch("./image-data.json")
     console.log(data);
 
     data.forEach((item) => {
+      const imageDiv = document.createElement("div");
+      imageDiv.classList.add("image-container");
+
       const img = document.createElement("img");
       img.classList = "logo-image"
       console.log(item.src);
       img.src = item.src;
       img.alt = item.alt;
-      cardsContainer.appendChild(img);
+      imageDiv.appendChild(img);
+      cardsContainer.appendChild(imageDiv)
     });
   })
   .catch((error) => {

@@ -15,26 +15,29 @@ body {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: auto auto auto;
+  align-items: center;
+  text-align: center;
 }
 .logo-image {
   max-width: 150px;
   height: auto;
   margin: 20px;
 }
-.sub-header{
-  margin: 40px 70px;
+.sub-header {
+  margin: 50px auto;
   font-size: 18px;
-  width: 50%;
+  max-width: 1100px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
-.sub-header h1{
-font-size: 50px;
+.sub-header h1 {
+  font-size: 50px;
+  width: 50%;
 }
-.sub-header p{
-  color: gray;  
+.sub-header p {
+  color: gray;
+  width: 50%;
 }
 .navbar {
   max-width: 1100px;
@@ -151,11 +154,26 @@ font-size: 50px;
   background: transparent;
 }
 
-@media (max-width: 830px) {
-    .main-section {
+@media (max-width: 1124px) {
+  .main-section {
     display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+  .navbar {
+    max-width: 850px;
+  }
+  .footer-section {
+    max-width: 850px;
+  }
+}
+
+
+@media (max-width: 830px) {
+  .main-section {
+    display: grid;
+    grid-template-columns: auto;
+    /* justify-items: center; */
     gap: 30px;
   }
   .logo-image {
@@ -234,19 +252,5 @@ font-size: 50px;
   .sidebar-projects-dropdown {
     border: none;
     background: transparent;
-  }
-}
-
-@media (max-width: 1124px) {
-     .main-section {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 30px;
-  }
-  .navbar {
-    max-width: 850px;
-  }
-  .footer-section {
-    max-width: 850px;
   }
 }
